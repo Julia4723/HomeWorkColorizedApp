@@ -41,7 +41,6 @@ import UIKit
             counterRed.text = sliderRed.value.formatted()
             viewShowColor.alpha = CGFloat(sliderRed.value)
             viewShowColor.backgroundColor = UIColor(red: CGFloat(sliderRed.value), green: CGFloat(sliderGreen.value), blue: CGFloat(sliderBlue.value), alpha: 1)
-            //viewShowColor.backgroundColor = viewShowColor.backgroundColor?.withAlphaComponent(CGFloat(sliderRed.value))
         }
         
         @IBAction func sliderGreenAction() {
