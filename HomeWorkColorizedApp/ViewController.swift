@@ -26,6 +26,7 @@ import UIKit
             super.viewDidLoad()
             
             viewShowColor.layer.cornerRadius = viewShowColor.frame.width / 12
+            viewShowColor.alpha = 0
             
             setupSliderRed()
             setupSliderGreen()
